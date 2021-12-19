@@ -8,7 +8,7 @@
 			background-color: #CCC;
 		}
 		.linea{
-			width:100%;
+			width: 90%;
 			height: 1px;
 			background-color: darkslategrey;
 			margin-left: 5px;
@@ -42,19 +42,31 @@
 			.titolo{
 				left: 0px;
 				width: 100%;
-				padding-left: 6%;
-				padding-right: 6%;
+				padding-left: 5%;
+				padding-right: 5%;
+			}
+			.linea{
+				width: 100%;
+				margin-left:0%;
+				margin-right: 0%;
 			}
 			.menu_element{
 				float:left;
-				margin-left: 8%;
-				margin-right: 8%;
-				margin-top: 30px;
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-top: 36px;
 				margin-bottom: 30px;
 			}	
+			.menu_image{
+				height: 30px;
+				width: auto;
+			}
 			.menu{
 				width: 100%;
-				margin: 20px;
+				margin-left: 5%;
+				margin-right: 5%;
+				margin-top: 24px;
+				margin-bottom: 20px;
 				top:100px;
 			}
 			.cancella{
@@ -63,9 +75,13 @@
 				top: -1000px;
 			}
 			.corpo{
-				padding: 5px;
-				left: 10px;
-				top: 280px;
+				padding: 4%;
+				left: 3px;
+				top: 180px;
+				width: 100%;
+			}
+			.immagine{
+				width: 100%;
 			}
 		}
 	</style>
@@ -79,21 +95,21 @@
 
 	<div class="menu">
 		<div class="menu_element">
-			<img src="images/works.png" alt="">
+			<img src="images/works.png" alt="" class="menu_image">
 		</div>
 		<div class="menu_element">
-			<img src="images/movie.png" alt="">
+			<img src="images/movie.png" alt="" class="menu_image">
 		</div>
 		<div class="menu_element">
-			<img src="images/artkit.png" alt="">
+			<img src="images/artkit.png" alt="" class="menu_image">
 			<br>
 			<img src="images/testo_artkit.png" alt="" class="cancella">
 		</div>
 	</div>
 	
 	<div class="corpo">
-		<div class="immagine">
-			<img src="images/immagine_principale_1_1.jpg" alt="">
+		<div>
+			<img src="images/immagine_principale_1_1.jpg" alt="" class="immagine">
 		</div>
 
 		<div>
@@ -103,8 +119,8 @@
 			</div>
 		</div>
 
-		<div class="immagine">
-			<img src="images/immagine_principale_2.jpg" alt="">
+		<div>
+			<img src="images/immagine_principale_2.jpg" alt="" class="immagine">
 		</div>
 	</div>
 </body>
